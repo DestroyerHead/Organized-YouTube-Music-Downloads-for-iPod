@@ -37,6 +37,9 @@ Everything else (Python, yt-dlp, FFmpeg, Deno) comes inside the installer.
 ### Built with
 Python · [yt-dlp](https://github.com/yt-dlp/yt-dlp) · [FFmpeg](https://ffmpeg.org/) · iTunes Search API · iTunes for Windows (COM) · [Mutagen](https://github.com/quodlibet/mutagen) · Chrome Extension (Manifest V3 + Native Messaging)
 
+### License
+[GPL-3.0](LICENSE). The installer also bundles third-party software under their own licenses (see the `licencas` folder after installing).
+
 > Personal project. Respect the YouTube Terms of Service and the rights of the artists. Download only what you are allowed to.
 > Not affiliated with Apple, Google or YouTube. "iPod" and "iTunes" are trademarks of Apple Inc.
 
@@ -74,6 +77,9 @@ O resto (Python, yt-dlp, FFmpeg, Deno) já vem dentro do instalador.
 
 ### Feito com
 Python · [yt-dlp](https://github.com/yt-dlp/yt-dlp) · [FFmpeg](https://ffmpeg.org/) · iTunes Search API · iTunes para Windows (COM) · [Mutagen](https://github.com/quodlibet/mutagen) · Extensão do Chrome (Manifest V3 + Native Messaging)
+
+### Licença
+[GPL-3.0](LICENSE). O instalador também traz programas de terceiros, cada um com a sua licença (veja a pasta `licencas` depois de instalar).
 
 > Projeto pessoal. Respeite os Termos de Serviço do YouTube e os direitos dos artistas. Baixe só o que você tem direito.
 > Sem vínculo com Apple, Google ou YouTube. "iPod" e "iTunes" são marcas da Apple Inc.

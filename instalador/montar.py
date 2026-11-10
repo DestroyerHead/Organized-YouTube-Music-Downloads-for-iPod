@@ -40,7 +40,7 @@ PACOTES = [
     "winrt-runtime", "winrt-Windows.Foundation", "winrt-Windows.Foundation.Collections",
     "winrt-Windows.Media.Core", "winrt-Windows.Media.Playback", "winrt-Windows.Storage.Streams",
 ]
-ARQUIVOS_DO_PROGRAMA = ["ipod_musicas.pyw", "README.md", "musicas", "extensao",
+ARQUIVOS_DO_PROGRAMA = ["ipod_musicas.pyw", "README.md", "LICENSE", "musicas", "extensao",
                         "mensageiro/host.py", "mensageiro/host.bat", "mensageiro/instalar.py"]
 
 
@@ -152,7 +152,8 @@ def licencas():
             if lic.is_file():
                 shutil.copy2(lic, pasta / f"{pacote}-{lic.name}")
     (pasta / "LEIA.txt").write_text(
-        f"{NOME} {VERSAO}\n\n"
+        f"{NOME} {VERSAO}\n"
+        "Licença do programa: GPL-3.0 (arquivo LICENSE na pasta de instalação).\n\n"
         "Este programa inclui software de terceiros, cada um com a sua licença (arquivos nesta pasta):\n"
         "  - Python (PSF License)               https://www.python.org\n"
         "  - Tcl/Tk (BSD-style)                 https://www.tcl.tk\n"

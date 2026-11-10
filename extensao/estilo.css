@@ -1,0 +1,31 @@
+/* Botões "→ iPod" colocados dentro das páginas do YouTube / YouTube Music */
+.ipod-botao {
+  font: 500 14px/1 Roboto, "YouTube Sans", Arial, sans-serif;
+  background: #fa2d48;
+  color: #fff;
+  border: 0;
+  border-radius: 18px;
+  padding: 0 14px;
+  height: 36px;
+  margin: 0 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+  align-self: center;
+}
+.ipod-botao:hover { background: #e0213b; }
+.ipod-botao:active { transform: scale(0.97); }
+.ipod-botao-player { height: 30px; padding: 0 12px; font-size: 13px; margin: 0 10px; }
+.ipod-botao-flutuante {
+  position: fixed;
+  right: 24px;
+  bottom: 96px;
+  z-index: 2147483646;
+  height: 44px;
+  padding: 0 18px;
+  font-size: 15px;
+  border-radius: 22px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}

@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Organized YouTube Music Downloads for iPod",
+  "short_name": "→ iPod",
+  "version": "1.1.0",
+  "description": "Botão \"→ iPod\" no YouTube e no YouTube Music: manda músicas e playlists pro programa Organized YouTube Music Downloads for iPod.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3GzK+Ay+OT990CaaU8Sd9oB31ryLRl7pr8Me3y3Bl7rmW5Pv9dM7iTUz2Rkbhlw8c1UFk+p8DfePd3XYBWgAQ34E1eqkjrWwmXEa03G7NUsL3GT6E4E2w3mSj0nSNhywETQGteLaQvkwIJNaiYA6nx7fQNA41wK29Pxr0jxGTOnfDYm1WrgJgigEvkJ9+6bu/LfvLuFzZyac3hTikI8GqudaQawjy2Jq3TLBO4uqKAHg5Y9U/EtWluMmrPtQS0SabOkDF/hiE6zvQLk8o19Yhd9JZkkfTB/mwcu+O3CGQ7hZiL9PykaIlIccIlOLd3IL2q+gCvWPxoPJxkX8DYRRmwIDAQAB",
+  "permissions": ["nativeMessaging"],
+  "background": { "service_worker": "background.js" },
+  "icons": { "16": "icones/16.png", "48": "icones/48.png", "128": "icones/128.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://music.youtube.com/*"],
+      "js": ["pagina.js"],
+      "world": "MAIN",
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://music.youtube.com/*", "https://www.youtube.com/*"],
+      "js": ["conteudo.js"],
+      "css": ["estilo.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

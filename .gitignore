@@ -1,0 +1,30 @@
+# Dados pessoais do programa (histórico de músicas, configurações, registro,
+# código do receptor e downloads temporários). Cada pessoa gera os seus.
+dados/
+
+# Guia de uso pessoal (fica só no PC; no GitHub vai o README.md)
+LEIA-ME.md
+
+# Criado pelo instalar_extensao.bat com o caminho do seu PC
+mensageiro/com.ipodmusicas.app.json
+
+# Instalador: pastas geradas pelo instalador\montar.py (o .exe vai pra página de Releases)
+instalador/build/
+instalador/cache/
+instalador/saida/
+
+# Arquivos compilados do Python (têm o caminho da pasta dentro)
+__pycache__/
+*.pyc
+
+# Músicas, caso alguém coloque alguma dentro do projeto
+*.m4a
+*.mp3
+*.part
+
+# Lixo do sistema e de editores
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

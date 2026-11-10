@@ -1,0 +1,5 @@
+# .bat precisa de CRLF pra rodar certo no Windows
+*.bat text eol=crlf
+*.iss text eol=crlf
+*.png binary
+*.ico binary

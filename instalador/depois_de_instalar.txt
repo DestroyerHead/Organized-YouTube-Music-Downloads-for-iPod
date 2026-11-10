@@ -1,0 +1,34 @@
+﻿PRONTO! Falta só um passo opcional: a extensão do Chrome.
+==========================================================
+
+A extensão coloca um botão "→ iPod" dentro do YouTube e do YouTube Music,
+pra mandar músicas e playlists direto pro programa.
+
+1. No Chrome, abra:  chrome://extensions
+2. Ligue o "Modo do desenvolvedor" (canto superior direito).
+3. Clique em "Carregar sem compactação".
+4. Escolha a pasta "extensao" que fica dentro da pasta onde o programa foi instalado.
+   Atalho: Menu Iniciar → Organized YouTube Music Downloads for iPod → Pasta da extensão do Chrome.
+5. Recarregue as abas do YouTube que estiverem abertas (F5).
+
+O registro da extensão no Chrome já foi feito pelo instalador.
+
+Lembrete: o iTunes precisa estar instalado. É por ele que as músicas vão pro iPod.
+
+
+DONE! One optional step left: the Chrome extension.
+===================================================
+
+The extension adds a "→ iPod" button inside YouTube and YouTube Music
+to send songs and playlists straight to the app.
+
+1. In Chrome, open:  chrome://extensions
+2. Turn on "Developer mode" (top right corner).
+3. Click "Load unpacked".
+4. Pick the "extensao" folder inside the folder where the app was installed.
+   Shortcut: Start Menu → Organized YouTube Music Downloads for iPod → Chrome extension folder.
+5. Reload any YouTube tabs that are already open (F5).
+
+The Chrome registration was already done by the installer.
+
+Reminder: iTunes must be installed. That is how the songs get to the iPod.
